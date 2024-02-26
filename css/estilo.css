@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Estilo del nav */
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../recursos/textura.avif");
+}
+
+.navegacion a img {
+    width: 80px;
+}
+
+.navegacion ul {
+    display: flex;
+}
+
+.navegacion ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.navegacion ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+/* Estilo del footer */
+.footer {
+    background-image: url("../recursos/textura.avif");
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.footer ul li a img {
+    width: 30px;
+}
+
+/* Estilo del main index */
+.main-index h3 {
+    text-align: center;
+    margin: 100px;
+    text-decoration: underline #4B4E6D;
+}
+
+/* Grilla */
+
+/* Estilo del main recorridos */
+.main-recorridos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-recorridos img {
+    width: 600px;
+    margin: 25px;
+}
+
+.main-recorridos div {
+    display: flex;
+}
+
+.main-recorridos section {
+    margin: 20px;
+    background-color: #274690;
+    padding: 10px;
+}
+
+.main-recorridos section p {
+    padding: 15px;
+}
+
+.main-recorridos section h3 {
+    background-color: #1B264F;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo main equipo */
+.main-equipo .acomodar-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 25px
+}
+
+.main-equipo .titulo-trabajador {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.main-equipo .texto-card {
+    padding: 15px;
+}
+
+/* Estilo del main ubicacion */
+.main-ubicacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-ubicacion h2 {
+    text-align: center;
+}
+
+.main-ubicacion iframe {
+    width: 75%;
+    margin: 25px;
+}
+
+/* Estilo del main contacto */
+.main-contacto div {
+    display: flex;
+}
+
+.main-contacto div img {
+    width: 750px;
+    padding: 30px;
+}
+
+.main-contacto form {
+    text-align: center;
+    margin: 100px 200px;
+    padding: 20px;
+    border: 5px solid white;
+}
+
+/* Generales */
+.color-main {
+    background-color: #84DCC6;
+}
+
+.titulo {
+    text-align: center;
+    padding: 25px;
+}
+
+.texto-intro {
+    margin: 25px 10px;
+    padding: 25px;
+    border: 10px solid #4B4E6D;
+}
+
+/* Mediacueris */

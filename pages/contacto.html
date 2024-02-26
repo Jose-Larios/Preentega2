@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <!-- Barra de navegacion -->
+    <nav class="navegacion">
+        <!-- Logo -->
+        <a href="../index.html"><img src="../recursos/logo.png!sw800" alt="Logo"></a>
+        <!-- Barra de navegacion -->
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./recorridos.html">Recorridos</a></li>
+            <li><a href="./equipo.html">Equipo</a></li>
+            <li><a href="./ubicacion.html">Ubicacion</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <!-- Contenido principal -->
+    <main class="main-contacto color-main">
+        <!-- Introduccion a la pagina Contacto -->
+        <h1 class="titulo">Contacto</h1>
+        <p class="texto-intro">¡Nos encantaría escuchar de ti! Nuestro equipo está aquí para responder a todas tus
+            preguntas y ayudarte con cualquier consulta que puedas tener. Ya sea que necesites más información sobre
+            nuestros servicios de purificación de agua, desees solicitar un presupuesto personalizado o simplemente
+            quieras compartir tus comentarios, estamos aquí para ayudarte. Puedes comunicarte con nosotros a través
+            correo electrónico o visitándonos en persona en nuestra ubicación. Nuestro equipo de atención al cliente
+            está disponible para atenderte con amabilidad y profesionalismo, brindándote la atención personalizada que
+            mereces. No dudes en ponerte en contacto con nosotros hoy mismo y descubre cómo podemos ayudarte a
+            satisfacer tus necesidades de agua purificada de la mejor manera posible. ¡Esperamos con ansias poder
+            asistirte pronto! </p>
+        <div>
+            <!-- Imagen de relleno -->
+            <img src="../recursos/imagen-contacto.webp" alt="imagen queremos tu opinion">
+            <!-- Formulario -->
+            <form action="#" method="get">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br><br>
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="ejemplo.correo@gmail.com" required>
+                <br><br>
+
+                <label for="telefono">Telefono</label>
+                <input type="text" id="telefono" name="telefono" placeholder="Ejempol: 222-325-5138" required>
+                <br><br>
+
+                <label>Asunto: </label>
+                <input type="radio" id="sugerencia" name="asunto" value="sugerencia" checked>
+                <label for="sugerencia">Sugerencia</label>
+                <input type="radio" id="queja" name="asunto" value="queja">
+                <label for="queja">Queja</label>
+                <input type="radio" id="comentario" name="comentario">
+                <label for="comentario">Comentario</label>
+                <br><br>
+
+                <label for="fecha">Fecha: </label>
+                <input type="date" id="fecha" name="fecha" required>
+                <br><br>
+
+                <label for="texto">Mensaje: </label>
+                <textarea name="texto" id="texto" rows="5" placeholder="Escibe aqui:" required></textarea>
+                <br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <ul>
+            <li><a target="_blank" href="https://www.facebook.com/"><img src="../recursos/logo-facebook.svg"
+                        alt="Logo de facebook"></a></li>
+            <li><a target="_blank" href="https://twitter.com/"><img src="../recursos/logo-x.png" alt="Logo de X"></a>
+            </li>
+            <li><a target="_blank" href="https://www.instagram.com/"><img src="../recursos/logo-instagram.png"
+                        alt="Logo de Intagram"></a></li>
+            <li><a target="_blank" href="https://www.tiktok.com/"><img src="../recursos/logo-tiktok.webp"
+                        alt="Logo de TikTok"></a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
