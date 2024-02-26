@@ -207,3 +207,63 @@
     padding: 25px;
     border: 10px solid #4B4E6D;
 }
+
+/* Medias Querys */
+/* Medias Querys a la barra de navegacion */
+@media (max-width:750px) {
+    .navegacion {
+        display: flex;
+        flex-direction: column
+    }
+}
+
+/* Medias Querys a recorridos */
+@media (max-width:950px) {
+    .main-recorridos div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-recorridos {
+        background-color: black;
+    }
+
+    .main-recorridos p {
+        color: white;
+    }
+
+    .main-recorridos h1 {
+        color: white;
+    }
+}
+
+/* Medias Querys a contacto */
+@media (max-width:1250px) {
+    .main-contacto div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-contacto form {
+        border: none;
+        padding: 0;
+    }
+
+    .main-contacto div img {
+        width: 400px;
+        padding: 15px;
+    }
+}
+
+/* Medias Querys a equipo */
+@media (max-width:950px) {
+    .acomodar-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        margin: 20px;
+    }
+}
