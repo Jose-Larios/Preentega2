@@ -59,6 +59,55 @@
 }
 
 /* Grilla */
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 25px;
+    grid-template-areas:
+        "foto1 foto1 foto2 foto2 "
+        "foto1 foto1 foto2 foto2 "
+        "foto1 foto1 foto2 foto2 "
+        "foto3 foto3 foto3 foto3"
+    ;
+}
+
+.foto1 {
+    grid-area: foto1;
+    background-color: black;
+}
+
+.foto2 {
+    grid-area: foto2;
+    background-color: black;
+}
+
+.foto3 {
+    grid-area: foto3;
+    background-color: black;
+}
+
+.grilla div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grilla h4 {
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+}
+
+.grilla img {
+    width: 350px;
+}
+
+.grilla p {
+    padding: 15px;
+    color: white;
+}
 
 /* Estilo del main recorridos */
 .main-recorridos {
@@ -158,5 +207,3 @@
     padding: 25px;
     border: 10px solid #4B4E6D;
 }
-
-/* Mediacueris */
